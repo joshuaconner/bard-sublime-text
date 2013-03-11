@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[class ${1:class_name} : ${2:parent_class}
+  PROPERTIES
+    ${3:property_name}: ${4:type}
+  METHODS
+    method ${5:method_name}(${6:params...}).${7:return_value} $0
+endClass]]></content>
+    <tabTrigger>class</tabTrigger>
+    <scope>source.bard</scope>
+    <description>class</description>
+</snippet>
