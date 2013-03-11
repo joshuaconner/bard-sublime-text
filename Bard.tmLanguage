@@ -10,7 +10,7 @@
 	<key>foldingStartMarker</key>
 	<string>^\s*(method|class)\s+([.a-zA-Z0-9_ &lt;]+)\s*(\((.*)\))?\s*:|\{\s*$|\(\s*$|\[\s*$|^\s*/\*(?=.)(?!.*/\*)</string>
 	<key>foldingStopMarker</key>
-	<string>^\s*$|^\s*\}|^\s*\]|^\s*\)|^\s*"""\s*$</string>
+	<string>^\s*$|^\s*\}|^\s*\]|^\s*\)|^\s*"""\s*$</string> <!-- ADD_: comments -->
 	<key>keyEquivalent</key>
 	<string>^~B</string>
 	<key>name</key>
@@ -37,7 +37,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(CLASS_PROPERTIES|CLASS_VARS|CLASS_METHODS|PROPERTIES|VARS|METHODS|BASE_TYPES|CATEGORIES|SINGLETONS|method|class|endClass|aspect|endAspect|compound|endCompound|augment|endAugment|overlaying|underlying|singleton|abstract|deferred|enum|endEnum)\b</string>
+			<string>\b(CLASS_PROPERTIES|CLASS_VARS|CLASS_METHODS|PROPERTIES|VARS|METHODS|BASE_TYPES|CATEGORIES|SINGLETONS|ENUMERATE|method|class|endClass|aspect|endAspect|compound|endCompound|augment|endAugment|overlaying|underlying|singleton|abstract|deferred|enum|endEnum)\b</string>
 			<key>name</key>
 			<string>keyword.other.special-method.bard</string>
 		</dict>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[while(${1:true})
-  ${2:# loop body...}
+  ${2:# loop body...} $0
 endWhile]]></content>
     <tabTrigger>while</tabTrigger>
     <scope>source.bard</scope>

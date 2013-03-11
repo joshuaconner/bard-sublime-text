@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[if(${1:true})
-  ${2:# content goes here...}
+  ${2:# content goes here...} $0
 endIf]]></content>
     <tabTrigger>if</tabTrigger>
     <scope>source.bard</scope>
