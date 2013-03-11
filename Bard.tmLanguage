@@ -43,7 +43,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(readOnly|writeOnly|public|private|limited|const|local|managed|native|requisite|if|elseIf|else|endIf|which|case|others|endWhich|contingent|necessary|sufficient|satisfied|unsatisfied|endContingent|try|catch|endTry|block|endBlock|while|endWhile|forEach|endForEach|loop|endLoop|escapeForEach|escapeWhile|escapeLoop|escapeWhich|escapeLoop|escapeIf|escapeContingent|escapeBlock|nextIteration|removeCurrent|breakpoint|throw|duplicate|this|prior|upTo|upToLessThan|downToGreaterThan|downTo|true|gt|false|eq|void|lt|null|infinity|NaN|return|breakpoint|not|and|or|xor|is|isNot|instanceOf|notInstanceOf|in)\b</string>
+			<string>\b(readOnly|writeOnly|public|private|limited|const|local|managed|native|requisite|if|elseIf|else|endIf|which|case|others|endWhich|contingent|necessary|sufficient|satisfied|unsatisfied|endContingent|try|catch|endTry|block|endBlock|while|endWhile|forEach|endForEach|loop|endLoop|escapeForEach|escapeWhile|escapeLoop|escapeWhich|escapeLoop|escapeIf|escapeContingent|escapeBlock|nextIteration|removeCurrent|breakpoint|throw|duplicate|this|prior|upTo|upToLessThan|downToGreaterThan|downTo|true|gt|false|eq|void|lt|null|infinity|NaN|return|breakpoint|not|and|or|xor|is|isNot|instanceOf|notInstanceOf|in|with|endWith)\b</string>
 			<key>name</key>
 			<string>keyword.control.bard</string>
 		</dict>
@@ -239,7 +239,7 @@
 				</dict>
 				<dict>
 					<key>begin</key>
-					<string>/\*</string>
+					<string>#{</string>
 					<key>captures</key>
 					<dict>
 						<key>0</key>
@@ -249,7 +249,7 @@
 						</dict>
 					</dict>
 					<key>end</key>
-					<string>\*/</string>
+					<string>}#</string>
 					<key>name</key>
 					<string>comment.block.bard</string>
 				</dict>

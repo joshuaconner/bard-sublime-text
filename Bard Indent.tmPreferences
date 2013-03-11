@@ -9,13 +9,13 @@
 	<key>settings</key>
 	<dict>
 		<key>decreaseIndentPattern</key>
-		<string>(^\s*\b(else|elseIf|endForEach|endIf|endWhich|endWhile|endWith|method)\b\s*$|
+		<string>(^\s*\b(case|else|elseIf|endForEach|endIf|endWhich|endWhile|endWith|method)\b\s*$|
 		^(.*\*/)?\s*\}.*$)</string>
 
 		<key>increaseIndentPattern</key>
 		<string>(?x)
 		^\s*
-		(\b(class|CLASS_PROPERTIES|else|elseIf|forEach|if|METHODS|method|PROPERTIES|which|while)\b\s*|
+		(\b(case|class|CLASS_PROPERTIES|else|elseIf|forEach|if|METHODS|method|PROPERTIES|which|while)\b\s*|
 		^.*\{[^}"']*$)</string>
 
 		<key>bracketIndentNextLinePattern</key>
