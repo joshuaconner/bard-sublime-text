@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[if(${1:true})
+  ${2:# content goes here...}
+endIf]]></content>
+    <tabTrigger>if</tabTrigger>
+    <scope>source.bard</scope>
+    <description>if</description>
+</snippet>

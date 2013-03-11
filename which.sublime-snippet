@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[which(${1:true})
+  case ${2:my_case}: ${3:action}
+endWhich]]></content>
+    <tabTrigger>which</tabTrigger>
+    <scope>source.bard</scope>
+    <description>which</description>
+</snippet>

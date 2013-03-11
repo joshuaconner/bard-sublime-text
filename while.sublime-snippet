@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[while(${1:true})
+  ${2:# loop body...}
+endWhile]]></content>
+    <tabTrigger>while</tabTrigger>
+    <scope>source.bard</scope>
+    <description>while</description>
+</snippet>
