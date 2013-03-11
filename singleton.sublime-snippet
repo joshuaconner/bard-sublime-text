@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[singleton class ${1:class_name}
+  PROPERTIES
+    ${2:property_name}: ${3:type}
+  METHODS
+    method ${4:method_name}(${5:params...}).${6:return_value} $0
+endClass]]></content>
+    <tabTrigger>singleton</tabTrigger>
+    <scope>source.bard</scope>
+    <description>singleton class</description>
+</snippet>
