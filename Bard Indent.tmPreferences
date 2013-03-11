@@ -9,7 +9,7 @@
 	<key>settings</key>
 	<dict>
 		<key>decreaseIndentPattern</key>
-		<string>(^\s*\b(case|else|elseIf|endForEach|endIf|endWhich|endWhile|endWith|method)\b\s*$|
+		<string>(^\s*\b(case|else|elseIf|endClass|endForEach|endIf|endWhich|endWhile|endWith|method)\b\s*$|
 		^(.*\*/)?\s*\}.*$)</string>
 
 		<key>increaseIndentPattern</key>
